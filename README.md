@@ -12,3 +12,8 @@ Key points:
 - Player with the higher value card in the war will win the war and take captives of the enemy card.
 
 - Player with no card will lose the game.
+
+Python features:
+- OOP
+- random library (shuffle method)
+- loops

@@ -1,6 +1,7 @@
 '''
 Player Class
 '''
+from random import shuffle
 
 class Player:
 
@@ -16,6 +17,9 @@ class Player:
 			self.all_cards.extend(new_cards)
 		else:
 			self.all_cards.append(new_cards)
+
+	def shuffle_cards(self):
+		shuffle(self.all_cards)
 
 	def __str__(self):
 		return f'Player {self.name} has {len(self.all_cards)} cards.'
